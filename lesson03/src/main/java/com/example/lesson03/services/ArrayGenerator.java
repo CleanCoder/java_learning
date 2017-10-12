@@ -1,9 +1,9 @@
 package com.example.lesson03.services;
 
 import java.util.Random;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class ArrayGenerator {
     public int[] generateRandomSeqArray(int length) {
         Random random = new Random();
